@@ -11,6 +11,11 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Anime Vault",
   description: "Your favorite anime, all in one place.",
+  icons : {
+    icon : [
+      './favicon.ico'
+    ]
+  },
 };
 
 export default function RootLayout({
